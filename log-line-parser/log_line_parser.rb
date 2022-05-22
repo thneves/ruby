@@ -1,5 +1,4 @@
 class LogLineParser
-
   def initialize(line)
     @line = line
   end
