@@ -1,6 +1,7 @@
 class Attendee
   def initialize(height)
     @height = height
+    revoke_pass!
   end
 
   def height
