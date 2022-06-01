@@ -1,5 +1,3 @@
-require 'pry'
-
 class AssemblyLine
   def initialize(speed)
     @speed = speed
