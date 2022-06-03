@@ -1,6 +1,3 @@
-require 'pry'
-
-
 module SavingsAccount
   def self.interest_rate(balance)
     return -3.213.to_f if balance.negative?
@@ -30,8 +27,3 @@ module SavingsAccount
     years
   end
 end
-
-SavingsAccount.interest_rate(100)
-SavingsAccount.annual_balance_update(100)
-SavingsAccount.years_before_desired_balance(100, 125.8)
-
